@@ -1,0 +1,33 @@
+{
+  "name": "my-first-test-publish-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "version": "npm run build",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ace53thntu/my-first-test-publish-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ace53thntu/my-first-test-publish-npm/issues"
+  },
+  "homepage": "https://github.com/ace53thntu/my-first-test-publish-npm#readme",
+  "devDependencies": {
+    "np": "^7.5.0",
+    "typescript": "^4.2.4"
+  }
+}
